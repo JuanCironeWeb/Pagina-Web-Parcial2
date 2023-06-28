@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bariloche</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header> 
+        
+    <nav class="navbar navbar-expand-md col-12 d-flex justify-content-center flex-wrap align-content-center">
+        <div class="container-fluid col-12 d-flex justify-content-around fixed-top bg-blue">
+            <h1 id="logo"class="col-sm-4 col-md-2" > Bariloche </h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu Hamburguesa">
+                <span class="navbar-toggler-icon">  </span>
+            </button>
+        <div id= "menu" class="collapse navbar-collapse col-md-8">
+        <ul class="navbar nav d-flex justify-content-evenly col-md-12 ">
+            <li class="nav-item"><a href="#InfoBanner" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#Seccion1" class="nav-link">Pases Online</a></li>
+            <li class="nav-item"><a href="#ContenedorEscuela" class="nav-link">Escuelas</a></li>
+            <li class="nav-item"><a href="#Actividades" class="nav-link">Actividades</a></li>
+            <li class="nav-item"><a href="#InfoMontana" class="nav-link">La Monta&ntilde;a</a></li>
+
+        </ul>
+        </div>
+        </div>
+        <div id="InfoBanner"class="container-fluid col-md-8 col-lg-7 flex-column text-center">
+            <h2>Arranca la temporada <br>de Invierno</h2>
+            <p>Conoce las actividades que ofrece la monta&ntilde;a para disfrutar del frio invernal de esta temporada</p>
+            <button type="button"> <a href="#Actividades">Ver Actividades </a></button>
+
+        </div>
+    </nav>
+
+</header>
+
+<main class="d-flex col-12 flex-wrap">
+
+<div id="BannerMedio" class="container-fluid d-flex justify-content-center flex-wrap flex-column img-fluid">
+
+
+<div id="Seccion1"class="container-fluid col-12 bg-red d-flex justify-content-center flex-wrap">
+
+<div id="ContenedorPase" class="container-fluid col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+    <h2> Consegui tus pases para la temporada</h2>
+    <p> El pase te habilita el uso de medios para poder subir a la monta&ntilde;a y todas las actividades disponibles que ofrece la monta&ntilde;a. Los menores de 5 a&ntilde;os no necesitan pase para subir a la monta&ntilde;a</p>
+</div>
+
+
+<div id="ContenedorForm"  class="container-fluid col-sm-12 col-md-6 bg-green d-flex justify-content-center flex-column align-items-center">
+<h2>Pases online</h2>
+<form action="#" class="container-fluid d-flex flex-wrap justify-content-center col-12">
+
+    <div class="container-fluid d-flex flex-column col-6">
+        <label for="Nombre"> Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" required>
+    </div>
+
+    <div class="container-fluid d-flex flex-column col-6">
+        <label for="Apellido">Apellido:</label>
+        <input type="text" id="Apellido" name="Apellido" required>
+    </div>
+
+    <div class="container-fluid d-flex flex-column col-6">
+        <label for="Documento"> Documento:</label>
+        <input type="text" id="Documento" name="Documento" minlength="7" maxlength="8" required> 
+    </div>
+
+    <div class="container-fluid d-flex flex-column col-6">
+        <label for="e-mail"> Mail </label>
+        <input type="email" id="Email" name="e-mail" required>
+    </div>
+
+    <div class="container-fluid d-flex flex-column col-6">
+        <label for="FechaInicio"> Desde:</label>
+        <input type="date" id="FechaInicio" name="FechaInicio" required>
+    </div>
+
+    <div class="container-fluid d-flex flex-column col-6">
+        <label for="FechaFinal">Hasta:</label>
+        <input type="date" id="FechaFinal" name="FechaFinal" required>
+    </div>
+
+    <div id="Selector" class="container-fluid d-flex">
+        <label for="Edad"> Edad </label>
+        <select name="Edad" id="Edad">
+            <option> 5 - 13 a&ntilde;os </option>
+            <option> + 13 a&ntilde;os </option>
+            <option> + 65 a&ntilde;os </option>
+        </select>
+    </div>
+
+    <div class="container-fluid d-flex col-12 justify-content-center">
+        <input type="submit" name="Enviar" value="Obtener pase" class="col-4" id="BotonForm">
+    </div>
+
+</form>
+
+</div>
+
+</div>
+
+
+
+<div id="ContenedorEscuela" class="container-fluid col-12 d-flex ">
+<div id="FotoEscuela" class="container-fluid d-flex col-sm-0 col-md-5 col-lg-6 align-items-center">
+<img src="img/Escuela-Ski.jpeg" alt="Escuela de ski">
+</div>
+
+<div id="InfoEscuela" class="container-fluid d-flex flex-column align-items-center justify-content-center col-sm-12 col-md-7 col-lg-6 text-center">
+<h2>Escuela de ski para ni&ntilde;os y adultos</h2>
+<p>Comenz&atilde; tu camino en la nieve de la mano de los mejores profesores de la monta&ntilde;a que te ayudar&atilde;n a atravesar las dificultades de la manera mas eficaz</p>
+<button class="button"> Reservar clase </button>
+</div>
+
+</div>
+
+</div>
+
+
+<div id="Actividades" class="container-fluid col-12 d-flex justify-content-evenly flex-wrap">
+
+    <div id="Actividad-1" class="card d-flex flex-wrap">
+        <img src="img/play-park.jpeg" alt="Play Park" class="card-img-top img-fluid">
+        <div class="card-body">
+            <h2 class="card-title"> Play Park </h2>
+            <p class="card-text"> Para quienes quieren dar sus primeros pasos en los deportes de nieve, Catedral ofrece una completa área de aprendizaje en la Base. </p>
+            <a href="#" class="btn btn-primary"> Ver mas </a>
+        </div>
+    </div>
+    
+    <div id="Actividad-2" class="card d-flex flex-wrap">
+        <img src="img/trekking.jpeg" alt="Trekking" class="card-img-top img-fluid">
+        <div class="card-body">
+            <h2 class="card-title"> Trekking </h2>
+            <p class="card-text"> Disfruta de un día de trekking por la Patagonia con esta ruta de senderismo con destino el Refugio Frey, un hospedaje tradicional a 1.700 metros sobre el nivel del mar. </p>
+            <a href="#" class="btn btn-primary"> Ver mas </a>
+        </div>
+    </div>
+    
+    <div id="Actividad-3" class="card d-flex flex-wrap">
+        <img src="img/esqui-de-fondo.jpg&dh=533&dw=800&t=4" alt="Esqui de fondo" class="card-img-top img-fluid">
+        <div class="card-body">
+            <h2 class="card-title"> Esqui de fondo </h2>
+            <p class="card-text"> Catedral cuenta con una pista de esquí nórdico o de fondo, homologada por la Federación Internacional de Ski, apta para competencias de primer nivel. </p>
+            <a href="#" class="btn btn-primary"> ver mas</a>    
+        </div>
+    </div>
+    
+    <div id="Actividad-4" class="card d-flex flex-wrap mb-7">
+        <img src="img/motonieve.jpeg" alt="Motos de nieve" class="card-img-top img-fluid">
+        <div class="card-body">
+            <h2 class="card-title"> Motos de nieve y cuatriciclos</h2>
+            <p class="card-text"> Una estupenda forma de conocer el entorno de Bariloche es con motos de nieve, una actividad divertida y segura. </p>
+            <a href="#" class="btn btn-primary"> Ver mas </a>
+        </div> 
+    </div>
+    
+    <div id="Actividad-5" class="card d-flex flex-wrap mb-7">
+        <img src="img/travesia-4x4.jpeg" alt="Travesia 4x4" class="card-img-top img-fluid">
+        <div class="card-body">
+            <h2 class="card-title"> Travesías 4 x 4 </h2>
+            <p class="card-text"> Bariloche está colmada de sitios para recorrer y disfrutar en vehículos 4x4. Terreno escarpado, vegetación imponente y rutas estimulantes que te llevan a lugares impensados. </p>
+            <a href="#" class="btn btn-primary"> Ver mas </a>
+        </div>
+    </div>
+    
+    <div id="Actividad-6" class="card d-flex flex-wrap mb-7">
+        <img src="img/trineo.jpeg" alt="Trineo" class="card-img-top img-fluid">
+        <div class="card-body">
+            <h2 class="card-title"> Trineo </h2>
+            <p class="card-text"> ¡Diversión en la nieve! Una actividad ideal para toda la familia, especialmente para los más chicos. </p>
+            <a href="#" class="btn btn-primary"> Ver mas </a>
+        </div>
+    </div>
+
+    <div id="Video" class="container-fluid col-sm-10 col-md-8 col-lg-12 d-flex justify-content-center mb-4">
+        <video src="img/Cerro Catedral..mp4" class="col-md-8" controls></video>
+        </div>
+
+</div> 
+
+<div id="InfoMontana" class="container-fluid d-flex justify-content-evenly flex-wrap flex-column">
+
+<div id="TituloInfoMontana" class="container-fluid d-flex justify-content-center text-center col-12">
+    <h2>La Monta&ntilde;a</h2>
+</div>
+
+<div id="ContenedorInfoMontana" class="container-fluid d-flex justify-content-evenly flex-wrap " >
+    <div id="Hoteles" class="container-fluid d-flex flex-column align-items-center text-center">
+        <img src="img/cama-hotel.png" alt="Cama de hotel" class="img.fluid">
+        <p><strong>7000 camas de hoteles y hosterías</strong>, que se suman a las 28000 plazas de Bariloche.</p>
+    </div>
+
+    <div id="Escuelita" class="container-fluid d-flex flex-column align-items-center text-center">
+        <img src="img/snowboard.png" alt="Clases de ski" class="img.fluid">
+        <p><strong>Escuelas de esquí para todas las edades, niveles y estilos.</strong> 7000 equipos de esquí, 1500 de snowboard y equipos de esquí nórdico.</p>
+    </div>
+
+    <div id="Bares" class="container-fluid d-flex flex-column align-items-center text-center">
+        <img src="img/cafe.png" alt="Taza de cafe" class="img.fluid">
+        <p><strong>Bares, cibercafés, snacks, pubs, restaurantes típicos y comida internacional.</strong></p>
+    </div>
+
+    <div id="PrimerosAuxilios" class="container-fluid d-flex flex-column align-items-center text-center">
+        <img src="img/botiquin-medico.png" alt="Primeros Auxilios" class="img.fluid">
+        <p>Centro asistencial de primeros auxilios con sala de enfermería, rayos x y servicios de ambulancia. <strong>Centro médico privado altamente especializado.</strong></p>
+    </div>
+
+    <div id="Informes" class="container-fluid d-flex flex-column align-items-center text-center">
+        <img src="img/informacion.png" alt="Informacion y atencion" class="img.fluid">
+        <p><strong>Equipo de informes y atención al cliente</strong>> a disposición del visitante y centro de información turística de la Provincia de Rio Negro</p>
+    </div>
+
+    <div id="Transporte" class="container-fluid d-flex flex-column align-items-center text-center">
+        <img src="img/taxi.png" alt="Transporte" class="img.fluid">
+        <p><strong>Taxis, remises y transporte urbano de pasajeros. Cuenta con 2 estacionamientos</strong></p>
+    </div>
+</div>
+
+</div>
+
+</main>
+
+
+
+
+<footer class="container-fluid d-flex col-12 flex-wrap justify-content-center align-items-center">
+    <div id="DivRedes" class="container-fluid d-flex justify-content-center col-12">
+        <div class="container-fluid d-flex justify-content-between">
+            <a href="#"><img src="img/LogoWpp.png" alt="Link Numero Whatsapp"></a>
+            <a href="#"><img src="img/instagram.png" alt="Link Instagram"></a>
+            <a href="#"><img src="img/linkedin.png" alt="Link Linkedin"></a>
+        </div>
+    </div>
+    
+    <div class="container-fluid d-flex col-12 justify-content-center text-center flex-column flex-wrap align-items-center">
+        <p>Juan Cirone</p>
+        <p>Interaccion con dispositivos moviles</p>
+        <p>Turno noche - 2023</p>
+        <br>
+        
+    </div>
+
+    <div id="InfoContacto" class="container-fluid d-flex col-sm-10 col-md-8 col-lg-6 align-items-center justify-content-center fixed-bottom m-auto mb-3">
+        <div id="TelefonoContacto" class="container-fluid d-flex col-sm-6 col-5 justify-content-evenly align-items-center">
+            <img src="img/telefono.png" alt="Telefono Fijo" class="img.fluid">
+            <p>294-3452-3422</p>
+        </div>
+
+        <div id="MailContacto" class="container-fluid d-flex col-sm-6 col-5 justify-content-evenly align-items-center">
+            <img src="img/e-mail.png" alt="E-mail" class="img.fluid">
+            <p>info@cerrocatedral.com</p>
+        </div>
+
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

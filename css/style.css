@@ -1,0 +1,359 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+ }
+p, li, label{ 
+    font-family: 'Roboto';
+}
+label{ 
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+h2, h3{
+    font-family: 'Lato';
+}
+.bg-blue{ 
+    background-color: rgba(100, 148, 237, 0.589);
+}
+ul{
+    list-style: none;
+}
+
+#logo{ 
+    text-indent: -999px;    
+    background: url(img/LOGO.png) no-repeat center center;
+    background-size: 35%;
+}
+
+nav{ 
+    background:url(img/banner1.jpg) no-repeat center center; 
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0px -5px 32px -1px rgba(0,0,0,0.50) inset;
+}
+.navbar-toggler{ 
+    border: none;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler-icon{
+    background: url(img/menu-hamburguesa.png) no-repeat center;
+    background-size: cover;
+}
+.nav-link:hover{ 
+text-decoration: underline;
+font-weight: bold;
+}
+
+#menu a{ 
+    color: whitesmoke;
+}
+#InfoBanner{ 
+    margin-left: 5rem;
+    line-height: 2.5rem;
+}
+#InfoBanner h2{ 
+    font-size: 3rem;
+}
+#InfoBanner p{ 
+    font-weight: 600;
+}
+#InfoBanner button{ 
+    margin: 1px solid black;
+    padding: 0.5rem;
+    background: transparent;
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+    width: 11rem;
+}
+#InfoBanner button:hover{ 
+    transform: scale(1.15);
+    background-color: rgb(19, 197, 64);
+    font-weight: bold;
+
+}
+a{ 
+    text-decoration: none;
+    color: black;
+}
+/* main */
+
+main{ 
+    width: 100vw;
+    background: transparent;
+}
+#BannerMedio{ 
+    background: url(img/Banner-medio.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+#Seccion1{
+    box-shadow: 1px 2px 32px -1px rgba(0,0,0,0.75);
+    margin: 0;
+    padding: 0;
+}
+
+.bg-green{ 
+    background-color: rgb(19, 197, 64);
+}
+
+#ContenedorForm{
+    height: 60vh;
+}
+
+input{ 
+    border: 1px solid black;
+    border-radius: 5px;
+}
+select{
+    margin-left: 2%;
+}
+#Selector{
+    margin-top: 2%;
+}
+#BotonForm{ 
+    margin: 2%;
+    border: 2px solid black;
+    background: transparent;
+    height: 2.5rem;
+}
+#BotonForm:hover{
+background-color: black;
+color: rgb(19, 197, 64);
+}
+
+#ContenedorPase{ 
+    height: 60vh;
+    background-color: white;
+}
+#ContenedorPase p{ 
+width: 80%;
+margin: 1rem;
+}
+
+/* Escuela ski */
+
+#ContenedorEscuela{ 
+    background-color: cornflowerblue;
+    margin-top: 12rem;
+    box-shadow: 1px 2px 32px -1px rgba(0,0,0,0.75);
+    width: 100vw;
+    padding: 0px;
+
+}
+
+#FotoEscuela img{ 
+    height: 60vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#InfoEscuela{ 
+    color: whitesmoke;
+}
+#InfoEscuela p{ 
+width: 70%;
+padding: 1rem;
+}
+
+#InfoEscuela button{ 
+    padding: .7rem;
+    background: transparent;
+    color: whitesmoke;
+    border: 2px solid white;
+    width: 40%;
+}
+
+#InfoEscuela button:hover{ 
+    background-color: whitesmoke;
+    color: cornflowerblue;
+}
+
+
+/* Actividades */
+#Actividades{ 
+    background: url(img/fondo-actividades.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 32px -1px rgba(0,0,0,0.50) inset;
+}
+.card{ 
+     width: 25vw; 
+    margin-top: 3rem;
+    background-color: rgba(100, 148, 237, 0.682);
+    color: whitesmoke;
+    box-shadow: 0px 0px 42px -1px rgba(0,0,0,0.70);
+}
+.card:hover{ 
+    transform: scale(1.07);
+}
+.mb-7{ 
+    margin-bottom: 3rem;
+}
+/* Video */
+
+#Video{ 
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    width: 100vw;
+}
+
+
+/* Info Monta;a */
+
+#InfoMontana{ 
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+
+}
+#TituloInfoMontana{ 
+    padding: 5%;
+
+}
+
+#InfoMontana div{ 
+    width: 100vw;
+}
+
+#InfoMontana div img{ 
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+}
+#ContenedorInfoMontana div{ 
+width: 30vw;
+}
+#InfoMontana div p{ 
+    width: 80%;
+}
+
+/* footer */
+footer{ 
+    height: 60vh;
+    width: 100vw;
+}
+
+#DivRedes div{ 
+    width: 60vw;
+    height: 8vh;
+}
+#DivRedes img{ 
+    width: 5vw;
+}
+
+#InfoContacto{ 
+    background-color: rgb(17, 57, 130);
+    height: 10vh;
+    color: whitesmoke;
+    border-radius: 1rem;
+    padding: 0;
+    margin: 0;
+
+}
+
+#InfoContacto img{ 
+width: 15%;
+height: 15%;
+}
+#InfoContacto p{ 
+    margin: 0;
+    padding: 0;
+}
+#MailContacto{ 
+    padding: 0;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    nav{ 
+        background:url(img/banner-md.jpg) no-repeat center center; 
+        height: 100vh;
+        background-size: cover;
+    }
+   #InfoEscuela p{ 
+    width: 90%;
+   }
+   .card{ 
+    width: 40vw;
+   }
+   #Video video{ 
+    width: 80vw;
+}
+#ContenedorPase{ 
+    height: 63vh;
+}
+#ContenedorForm{ 
+    height: 63vh;
+}
+#BotonForm{ 
+    width: 60%;
+}
+label, input, select{ 
+    padding: 0.3rem;
+}
+#ContenedorEscuela{ 
+    height: 50vh;
+}
+#ContenedorEscuela img{ 
+    height: 80%;
+}
+
+
+#InfoEscuela p{ 
+    width: 85%;
+    }
+
+    #InfoEscuela button{ 
+        width: 60%;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:767px){
+
+
+    nav{ 
+        background:url(img/banner-sm.jpg) no-repeat center center; 
+        height: 70vh;
+        background-size: cover;
+    }
+    h1{ 
+        height: 50px;
+    }
+    .card{ 
+        width: 45vw;
+       }
+       #ContenedorInfoMontana div{ 
+        width: 45vw;
+        }
+        #ContenedorPase{ 
+            height: 40vh;
+        }
+        #ContenedorForm{ 
+            height: 55vh;
+        }
+        #ContenedorEscuela{ 
+            height: 45vh;
+        }
+        #ContenedorEscuela img{ 
+            height: 80%;
+        }
+        #Video video{ 
+            width: 80vw;
+        }
+}
